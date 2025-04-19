@@ -1,31 +1,32 @@
-# Financial Analysis: NVIDIA, AMD, and Intel
+# Financial Analysis of NVIDIA, AMD, and Intel
 
-This repository contains a detailed financial analysis comparing NVIDIA, AMD, and Intel based on key financial ratios. The analysis answers three major questions:
+This repository contains a detailed financial analysis of three major tech companies: NVIDIA, AMD, and Intel. The analysis includes downloading financial data, processing it, and generating visual comparisons using key financial ratios like P/E, ROE, and P/S. Additionally, it compares their stock performance over the past year.
 
-## Key Questions
+## Key Questions Answered
 
 1. **Is NVIDIA overvalued?**
-   - We compare NVIDIA's valuation to its competitors and assess whether its price is justified by its financial performance and future growth prospects.
-
+   - We analyze NVIDIA's current valuation using financial ratios and compare it to its competitors (AMD and Intel).
+   
 2. **Is it a good idea to invest in NVIDIA now, or should you wait?**
-   - This section provides insights into NVIDIA's current financial position, its growth potential, and whether the stock is priced attractively compared to its competitors.
-
+   - The analysis provides insights into NVIDIA's financial position and growth potential, helping you decide if it's an attractive investment.
+   
 3. **How does NVIDIA compare with AMD and Intel?**
-   - We compare the key financial metrics of NVIDIA, AMD, and Intel, including:
-      - **P/E Ratio (Price-to-Earnings)**
-      - **ROE (Return on Equity)**
-      - **P/S Ratio (Price-to-Sales)**
+   - A comparative analysis is conducted based on the following financial ratios:
+     - **P/E (Price-to-Earnings) Ratio**
+     - **ROE (Return on Equity)**
+     - **P/S (Price-to-Sales) Ratio**
+     - Other financial metrics like debt-to-equity and net margins are also analyzed.
+
+## Files Included
+
+1. **`descargar_datos.py`**: Downloads the financial data of NVIDIA, AMD, and Intel from Yahoo Finance using `yfinance`.
+2. **`limpiar_datos.py`**: Cleans the downloaded financial data and prepares it for analysis.
+3. **`graficas.py`**: Generates visualizations (bar charts) comparing the key financial ratios of the companies and includes their logos in the graphs.
+4. **`analisis_financiero_nvidia_vs_comp.xlsx`**: Excel file containing the raw and cleaned data of the financial analysis.
+5. **`analisis_financiero_nvidia_vs_comp_limpio.xlsx`**: Cleaned Excel file for analysis, with unnecessary data removed.
 
 ## How to Run the Code
 
-1. Clone the repository to your local machine.
-2. Ensure you have the necessary libraries installed (e.g., `pandas`, `matplotlib`, `seaborn`).
-3. Run the script `financial_analysis.py` to generate the comparative graphs and analysis.
-
-## Results
-
-- The analysis provides visualizations and answers to the three key questions based on the financial ratios.
-- **Conclusion**: NVIDIA is currently highly valued compared to AMD and Intel, suggesting that investors should proceed with caution or wait for a more favorable entry point.
-
-## Author
-- Name: Your Name
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/Financial-Analysis-NVIDIA-AMD-Intel.git
